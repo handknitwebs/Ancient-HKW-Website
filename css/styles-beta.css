@@ -1,0 +1,207 @@
+/* CSS Resets */
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,address,cite,code,del,dfn,em,img,ins,q,small,strong,sub,sup,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;margin:0;padding:0}article,aside,figure,figure img,figcaption,hgroup,footer,header,nav,section,video,object{display:block}a img{border:0}figure{position:relative}figure img{width:100%}
+
+
+/* ==================================================================================================================== */
+/* ! The 1140px Grid V2 by Andy Taylor \ http://cssgrid.net \ http://www.twitter.com/andytlr \ http://www.andytlr.com   */
+/* ==================================================================================================================== */
+
+
+.container {
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.fb-container {background-image:url(../images/bfold.png); background-repeat:repeat;
+width: 100%;
+padding-right: 20px;
+}
+
+.row {
+width: 100%;
+max-width: 1140px;
+min-width: 755px;
+margin: 0 auto;
+overflow: hidden;
+}
+
+.onecol, .twocol, .threecol, .fourcol {
+margin-right: 3.8%;
+float: left;
+min-height: 1px;
+}
+
+.row .onecol {
+width: 4.85%;
+}
+
+.row .twocol {
+width: 13.45%;
+}
+
+.row .threecol {
+width: 22.05%;
+}
+
+.row .fourcol {
+width: 30.75%;
+}
+
+.row .fivecol {
+width: 39.45%;
+}
+
+.row .sixcol {
+width: 48%;
+}
+
+.row .sevencol {
+width: 56.75%;
+}
+
+.row .eightcol {
+width: 65.4%;
+display:block;
+}
+
+.row .ninecol {
+width: 74.05%;
+dispay: block;
+}
+
+.row .tencol {
+width: 82.7%;
+display:block;
+}
+
+.row .elevencol {
+width: 91.35%;
+}
+
+.row .twelvecol {
+width: 100%;
+float: left;
+}
+
+.row .centercol {
+	width:74.05%;
+	display: block;
+	margin: 0 auto;
+}
+
+.last {
+margin-right: 0px;
+}
+
+.header {
+	background-image:url(../images/bg-wood-floor.jpg);
+	background-position: top center;
+	background-size: 100%;
+	
+}
+
+
+.center {
+	display: block;
+	margin: 0 auto;
+}
+
+img, object, embed {
+max-width: 100%;
+}
+
+img {
+	height: auto;
+}
+
+.m5-10		{margin: 5px 10px;}		.p5-10 		{padding: 5px 10px;}
+.m10-5 		{margin: 10px 5px;}		.p10-5 		{padding: 10px 5px;}
+.m5-15 		{margin: 5px 15px;}		.p5-15 		{padding: 5px 15px;}
+.m15-5 		{margin: 15px 5px;}		.p15-5 		{padding: 15px 5px;}
+.m10-15		{margin: 10px 15px;}	.p10-15		{padding: 10px 15px;}
+.m15-10		{margin: 15px 10px;}	.p15-10		{padding: 15px 10px;}
+.m10-20 	{margin: 10px 20px;}	.p10-20 	{padding: 10px 20px;}
+.m15-35		{margin: 15px 35px;}	.p15-35		{padding: 15px 35px;}
+.m10-25		{margin: 10px 25px;}	.p10-25		{padding: 10px 25px;}
+.m20-10 	{margin: 20px 10px;}	.p20-10 	{padding: 20px 10px;}
+.m15-20 	{margin: 15px 20px;}	.p15-20 	{padding: 15px 20px;}
+.m20-15 	{margin: 20px 15px;}	.p20-15 	{padding: 20px 15px;}
+.m25-50 	{margin: 25px 50px;}	.p25-50  	{padding: 25px 50px;}
+.m50-25 	{margin: 50px 25px;}	.p50-25 	{padding: 50px 25px;}
+.m40-50 	{margin: 40px 50px;}	.p40-50 	{padding: 40px 50px;}
+.m50-40 	{margin: 50px 40px;}	.p50-40 	{padding: 50px 40px;}
+									.p50-0		{padding: 50px 0px;}
+#bfold {background-image:url(../images/bfold-top.png); background-repeat:repeat-x; height: 100px; margin-top: -15px;
+}
+
+.bfold_body {background-image:url(../images/bfold.png);
+background-repeat:repeat;
+}
+
+.bfold_text {
+	color: #FFF;
+}
+
+.sweater_spacer {
+	height: auto;
+	padding-top: 195px;
+	padding-bottom: 195px; 
+}
+
+.title {
+	padding-bottom: 50px;
+}
+
+.thumbnail {
+	padding-bottom: 15px;
+}
+
+.neg-margin {
+	margin-left: -20px;
+}
+
+p {
+	margin: 0px 0px 15px 0px;
+}
+
+/* Smaller screens */
+
+@media only screen and (max-width: 1023px) {
+
+	body {
+	font-size: 1.2em;
+	line-height: 1em;
+	}
+	
+	}
+
+
+/* Mobile */
+
+@media handheld, only screen and (max-width: 767px) {
+
+	body {
+	font-size: 1.4em;
+	-webkit-text-size-adjust: none;
+	}
+	
+	.row, body, .container {
+	width: 100%;
+	min-width: 0;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	}
+	
+	.row .onecol, .row .twocol, .row .threecol, .row .fourcol, .row .fivecol, .row .sixcol, .row .sevencol, .row .eightcol, .row .ninecol, .row .tencol, .row .elevencol, .row .twelvecol {
+	width: auto;
+	float: none;
+	margin: 0 auto;
+	displacy: block;
+	padding-left: 20px;
+	padding-right: 20px;
+	}
+
+}

@@ -1,0 +1,632 @@
+/* CSS Resets */
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,address,cite,code,del,dfn,em,img,ins,q,small,strong,sub,sup,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;margin:0;padding:0}article,aside,figure,figure img,figcaption,hgroup,footer,header,nav,section,video,object{display:block}a img{border:0}figure{position:relative}figure img{width:100%}
+
+
+/* ==================================================================================================================== */
+/* ! The 1140px Grid V2 by Andy Taylor \ http://cssgrid.net \ http://www.twitter.com/andytlr \ http://www.andytlr.com   */
+/* ==================================================================================================================== */
+
+
+.container {
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.fb-container {
+width: 100%;
+}
+
+.fb-container-sweater {
+width: 100%;
+background-image: url(../images/bfold.png);
+background-repeat: repeat;
+}
+
+.min-container {
+padding-left: 20px;
+padding-right: 20px;
+background-color: #FFF;
+}
+
+.fb-container-min {background-color: #FFF;
+width: 100%;
+}
+
+.fb-container-ill {
+width: 100%;
+height: 100%;
+background-color: #AADBD9;
+background-image:url(../images/ill-bg.png);
+background-position: bottom center;
+background-size: 100%;
+background-repeat:no-repeat;
+}
+
+.fb-container-knit {
+	width: 100%;
+	background-image:url(../images/knit.png);
+	background-position: center center;
+	background-size: 100%;
+
+}
+
+.header-knit {
+	height: 350px;
+	width: 100%;
+}
+
+.row {
+width: 100%;
+max-width: 1140px;
+min-width: 755px;
+margin: 0 auto;
+overflow: hidden;
+}
+
+.onecol, .twocol, .threecol, .fourcol {
+margin-right: 3.8%;
+float: left;
+min-height: 1px;
+}
+
+.row .onecol {
+width: 4.85%;
+}
+
+.row .twocol {
+width: 13.45%;
+}
+
+.row .threecol {
+width: 22.05%;
+}
+
+.row .fourcol {
+width: 30.75%;
+}
+
+.row .fivecol {
+width: 39.45%;
+display: block;
+}
+
+.row .sixcol {
+width: 48%;
+}
+
+.row .sevencol {
+width: 56.75%;
+}
+
+.row .eightcol {
+width: 65.4%;
+display:block;
+}
+
+.row .ninecol {
+width: 74.05%;
+dispay: block;
+}
+
+.row .tencol {
+width: 82.7%;
+display:block;
+}
+
+.row .elevencol {
+width: 91.35%;
+}
+
+.row .twelvecol {
+width: 100%;
+float: left;
+}.row {
+width: 100%;
+max-width: 1140px;
+min-width: 755px;
+margin: 0 auto;
+overflow: hidden;
+}
+
+.onecol, .twocol, .threecol, .fourcol {
+margin-right: 3.8%;
+float: left;
+min-height: 1px;
+}
+
+.row .onecol {
+width: 4.85%;
+}
+
+.row .twocol {
+width: 13.45%;
+}
+
+.row .threecol {
+width: 22.05%;
+}
+
+.row .fourcol {
+width: 30.75%;
+}
+
+.row .fivecol {
+width: 39.45%;
+display: block;
+}
+
+.row .sixcol {
+width: 48%;
+}
+
+.row .sevencol {
+width: 56.75%;
+}
+
+.row .eightcol {
+width: 65.4%;
+display:block;
+}
+
+.row .ninecol {
+width: 74.05%;
+dispay: block;
+}
+
+.row .tencol {
+width: 82.7%;
+display:block;
+}
+
+.row .elevencol {
+width: 91.35%;
+}
+
+.row .twelvecol {
+width: 100%;
+float: left;
+}
+
+.row .centercol {
+	width:74.05%;
+	display: block;
+	margin: 0 auto;
+}
+
+.last {
+margin-right: 0px;
+}
+
+.header {
+	background-image:url(../images/bg-wood-floor.jpg);
+	background-position: top center;
+	background-size: 100%;
+	
+}
+
+.sky {
+	background-color:#9CF;
+}
+
+
+.center {
+	display: block;
+	margin: 0 auto;
+}
+
+img, object, embed {
+max-width: 100%;
+}
+
+img {
+	height: auto;
+}
+
+.m5-10		{margin: 5px 10px;}		.p5-10 		{padding: 5px 10px;}
+.m10-5 		{margin: 10px 5px;}		.p10-5 		{padding: 10px 5px;}
+.m5-15 		{margin: 5px 15px;}		.p5-15 		{padding: 5px 15px;}
+.m15-5 		{margin: 15px 5px;}		.p15-5 		{padding: 15px 5px;}
+.m10-15		{margin: 10px 15px;}	.p10-15		{padding: 10px 15px;}
+.m15-10		{margin: 15px 10px;}	.p15-10		{padding: 15px 10px;}
+.m10-20 	{margin: 10px 20px;}	.p10-20 	{padding: 10px 20px;}
+.m15-35		{margin: 15px 35px;}	.p15-35		{padding: 15px 35px;}
+.m10-25		{margin: 10px 25px;}	.p10-25		{padding: 10px 25px;}
+.m20-10 	{margin: 20px 10px;}	.p20-10 	{padding: 20px 10px;}
+.m15-20 	{margin: 15px 20px;}	.p15-20 	{padding: 15px 20px;}
+.m20-15 	{margin: 20px 15px;}	.p20-15 	{padding: 20px 15px;}
+.m25-50 	{margin: 25px 50px;}	.p25-50  	{padding: 25px 50px;}
+.m50-25 	{margin: 50px 25px;}	.p50-25 	{padding: 50px 25px;}
+.m40-50 	{margin: 40px 50px;}	.p40-50 	{padding: 40px 50px;}
+.m50-40 	{margin: 50px 40px;}	.p50-40 	{padding: 50px 40px;}
+									.p50-0		{padding: 50px 0px;}
+									.pbottom	{padding: 0px 0px 50px 0px;}
+									
+.left {
+	float: left;
+}
+
+.right { float: right; }
+									
+#bfold {background-image:url(../images/bfold-top.png); background-repeat:repeat-x; height: 50px; margin-top: -15px;
+}
+
+.bfold_body {background-image:url(../images/bfold.png);
+background-repeat:repeat;
+}
+
+.bfold_text {
+	color: #FFF;
+}
+
+.bfold_text p a {
+	color: #DC5450;
+}
+
+.bfold_text_ill {
+	color: #C7B299;
+}
+
+.bfold_text_ill p a {
+	color: #C00;
+}
+
+.sweater_spacer {
+	height: auto;
+	padding-top: 195px;
+	padding-bottom: 195px; 
+}
+
+.ill-spacer {
+	height:75px;
+	margin-top: 100px;
+}
+
+.title {
+	padding-bottom: 50px;
+}
+
+.title-ill {
+	padding-top: 50px;
+}
+
+.thumbnail {
+	padding-bottom: 15px;
+}
+
+.neg-margin {
+	margin-left: -20px;
+}
+
+p {
+	margin: 0px 0px 15px 0px;
+}
+
+.text-small {
+	font-size: 0.7em;
+	font-weight:100;
+}
+
+.float {
+	float:left;
+}
+
+.r-float {
+	float: right;
+}
+
+.grass {
+	height: 50px;
+	width: 100%;
+	background-color: #00745B;
+	margin-top: -1px;
+}
+
+.grass-2 {
+	margin-top: -5px;
+	height: 60px;
+	width: 100%;
+	background-image: url(../images/grass.png);
+	background-repeat: repeat-x;
+}
+
+.dino {
+	height: 85px;
+	width: 100%;
+	background-image: url(../images/dirt.png);
+	z-index: 100;
+
+}
+
+#blurb {
+	position: absolute;
+	background-image:url(../images/speech-bubble.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding: 20px 40px;
+	width: 430px;
+	height: 175px;
+	top: 225px;
+	left: 40%;
+	z-index: 1000;
+	visibility:hidden;
+}
+	
+
+.ill-bf {
+	margin-top: -17px;
+	width: 100%;
+	background-image: url(../images/ill-footer-body.jpg);
+	background-repeat:repeat;
+	z-index: -100;
+
+
+}
+
+h1 {
+color: #C7B299;
+line-height: 1.2em;
+}
+/* Portfolio */
+
+.da-thumbs li {
+    margin: 5px;
+    background: #C8B39B;
+    padding: 8px;
+    position: relative;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.7);
+	list-style: none;
+}
+.da-thumbs li a,
+.da-thumbs li a img {
+    display: block;
+    position: relative;
+}
+.da-thumbs li a {
+    overflow: hidden;
+}
+.da-thumbs li a div {
+    position: absolute;
+    background: rgba(60,49,34,0.7);
+    width: 100%;
+    height: 100%;
+}
+
+.da-thumbs li a div span {
+font-size: 1em;
+display: block;
+padding: 10px 0;
+margin: 40px 20px 20px 20px;
+font-weight: lighter;
+color: rgba(255, 255, 255, 0.9);
+text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+border-bottom: 1px solid rgba(200, 179, 155, 0.5);
+box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), 0 -10px 0 rgba(200, 179, 155, 0.3);
+}
+
+.sm-icons-row {
+	width: 22.05%;
+	margin: 20px auto 0px auto;
+	display: block;
+}
+
+.sm-icon {
+	margin-right: 10%;
+}
+
+
+
+/* style panel */
+
+#style_panel a {
+	position: absolute;
+	background-image:url(../images/style_panel.png);
+	background-repeat: no-repeat;
+	top: -215px;
+	left: 20px;
+	width: 255px;
+	height: 251px;
+	z-index: 5000;
+}
+
+.panel {
+	background-repeat: no-repeat;
+}
+
+/* navigation */
+
+ul#navigation {
+	
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    top: 325px;
+    right: 0px;
+    list-style: none;
+    z-index:99999;
+}
+
+ul#navigation li {
+    width: 100px;
+	margin-bottom: 5px;
+}
+
+ul#navigation li a {
+    display: block;
+	margin-left: 65px;
+    width: 100px;
+    height: 35px;
+	padding-left: 40px;
+	padding-right: 7px;
+	font-size: .9em;
+	color: #333;
+	line-height: 36px;
+    background-color: rgba(150,150,150,0.7);
+	background-position: left center;
+    background-repeat:no-repeat;
+    border:1px solid #262626;
+	-moz-border-radius:10px 0px 0px 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -webkit-border-top-left-radius: 10px;
+    -khtml-border-bottom-left-radius: 10px;
+    -khtml-border-top-left-radius: 10px;
+
+}
+
+.nav-home {
+	background-image:url(../images/icon-home.png);
+	text-decoration: none;
+	color:#333;
+
+}
+
+.nav-portfolio {
+	background-image:url(../images/icon-portfolio.png);
+	text-decoration: none;
+	color:#333;
+}
+
+.nav-contact {
+	background-image:url(../images/icon-contact.png);
+	text-decoration: none;
+	color:#333;
+}
+
+.nav-spokane {
+	background-image:url(../images/icon-marmot.png);
+	text-decoration: none;
+	color:#333;
+}
+
+.nav-blog {
+	background-image: url(../images/icon-blog.png);
+	text-decoration: none;
+	color: #333;
+	
+}
+
+#home {
+
+}
+
+
+#our-work {
+}
+#our-work-a {
+}
+#our-work-b {
+}
+
+#contact {
+}
+#contact-a {
+}
+#contact-b {
+}
+
+#spokane {
+
+}
+#spokane-a {
+
+}
+#spokane-b {
+
+}
+
+.marmot {
+	
+}
+
+/* knob tags */
+
+.illustrated {
+}
+
+.minimal {
+}
+
+.knit {
+}
+
+/* Typography */
+a:link {
+color: #880606;
+text-decoration:none;
+}
+
+a:hover {
+	color: #333;
+	text-decoration:none;
+}
+
+a:visited {
+	color: #880606;
+	text-decoration:none;
+}
+
+.bfold_text a:visited {
+	color: #DC5450;
+}
+
+.bfold_text a:hover {
+	color: #FFF;
+}
+
+.bfold_text_ill a:visited {
+	color: #C00;
+}
+
+.bfold_text_ill a:hover {
+	color: #FFF;
+}
+
+h3 {
+	font-size: 2em;
+	line-height: 36px;
+	font-family: 'Dawning of a New Day', cursive;
+	color: #D04E4A;
+}
+	
+	
+/* Smaller screens */
+
+@media only screen and (max-width: 1023px) {
+
+	body {
+	font-size: 1.2em;
+	line-height: 1em;
+	}
+	
+	}
+
+
+/* Mobile */
+
+@media handheld, only screen and (max-width: 767px) {
+
+	body {
+		font-size: .7em;
+		line-height: 1em;
+	-webkit-text-size-adjust: none;
+	}
+	
+	.row, body, .container {
+	width: 100%;
+	min-width: 0;
+	margin: 0 auto;
+	display: block;
+	padding-left: 0px;
+	padding-right: 0px;
+	}
+	
+	.row .onecol, .row .twocol, .row .threecol, .row .fourcol, .row .fivecol, .row .sixcol, .row .sevencol, .row .eightcol, .row .ninecol, .row .tencol, .row .elevencol, .row .twelvecol {
+	width: auto;
+	float: none;
+	margin: 0 auto;
+	displacy: block;
+	padding-left: 20px;
+	padding-right: 20px;
+	}
+
+}

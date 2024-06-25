@@ -1,0 +1,81 @@
+/* ============================== */
+/* ! Layout for desktop version   */
+/* ============================== */
+
+	body {
+		background-color: #FFF;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 16px;
+		line-height: 24px;
+		font-weight:600;
+		color:#000;	
+	}
+	
+	@media only screen and (min-width: 1400px) {
+	 .ill-top-spacer {
+		 height:250px;
+		 width: 100%;
+	 }
+	 
+	 .header-knit {
+		height: 550px;
+		width: 100%;
+	 }
+	 
+	 #blurb {
+		top: 475px;
+		left: 43%;
+	}
+	}
+	 
+	
+	
+	 
+	 
+	
+	
+	
+
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+
+	body {
+		background-color: #FFF;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 1.4em;
+		line-height: 1.4em;
+		color:#000;
+
+	}
+	
+	.header-knit {
+		height: 600px;
+		width: 100%;
+	}
+
+}
+
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+	body {
+		background-color: #FFF;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 1.4em;
+		line-height: 1.4em;
+		color:#000;
+
+	}
+
+/*	.logo {
+		background: url(logo2x.jpg) no-repeat;
+		background-size: 212px 303px;
+	}*/
+
+}
